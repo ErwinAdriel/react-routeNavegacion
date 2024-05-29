@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Navbar(){
     return(
 <nav class="bg-color-bg-marron text-white">
@@ -8,16 +10,16 @@ export default function Navbar(){
     <div class="">
       <ul class="flex md:p-3 mt-2 space-x-8 md:mt-0 md:border-0 text-white">
         <li>
-          <a href="/" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0" aria-current="page">Inicio</a>
+          <Link to="/" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0" aria-current="page">Inicio</Link>
         </li>
         <li>
-          <a href="/productos" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0">Productos</a>
+          <Link to="/productos" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0">Productos</Link>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0">Nosotros</a>
+          <Link to="#" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0">Nosotros</Link>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0">Contacto</a>
+          <Link to="#" class="block py-2 px-3 text-white rounded md:hover:text-[#9FA6A1] md:p-0">Contacto</Link>
         </li>
       </ul>
     </div>
