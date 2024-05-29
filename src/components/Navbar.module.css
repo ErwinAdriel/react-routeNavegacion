@@ -1,0 +1,12 @@
+.navbarContainer{
+    border: solid 1px #000;
+    background-color: #261A17;
+    color: #fff;
+}
+
+.titulo{
+    font-size: 1.5em;
+}
+.items{
+    text-decoration: none;
+}
